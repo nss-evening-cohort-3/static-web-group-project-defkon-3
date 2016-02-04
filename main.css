@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  position: fixed;
+  background-color: red;
+  top: -20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 5%;
+
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.headerPic {
+  width: 100%;
+}
+
