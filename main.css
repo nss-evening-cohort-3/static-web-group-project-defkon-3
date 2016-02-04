@@ -3,12 +3,23 @@ body {
   text-align: center;
 }
 
+@font-face {
+  font-family: "You Murderer BB";
+  src: url("youmurdererbb_reg.ttf");
+}
+
 .nav {
   position: fixed;
   background-color: red;
   top: -20px;
   padding: 20px;
   width: 100%;
+}
+
+.mainHeader {
+  font-family: "You Murderer BB";
+  font-size: 9em;
+  background-color: lightgrey;
 }
 
 .nav li {
@@ -23,6 +34,7 @@ body {
 
 .headerPic {
   width: 100%;
+  top: 5px;
 }
 
 section {
