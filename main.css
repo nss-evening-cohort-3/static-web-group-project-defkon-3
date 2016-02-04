@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  text-align: center;
 }
 
 .nav {
@@ -24,3 +25,15 @@ body {
   width: 100%;
 }
 
+section {
+  margin: 0 25%;
+  text-align: justify;
+  background-color: grey;
+  padding: 5px;
+}
+footer {
+  font-size: 1em;
+  width: 100%;
+  background-color: darkred;
+  padding: 10px;
+}
