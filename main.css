@@ -1,6 +1,7 @@
 body {
   margin: 0;
   text-align: center;
+  background-image: url("http://img11.deviantart.net/b40f/i/2009/207/f/a/blood_spatter_by_zeds_stock.jpg");
 }
 
 @font-face {
@@ -35,6 +36,9 @@ body {
 .headerPic {
   width: 100%;
   top: 5px;
+  position: relative;
+  top: 5px;
+  z-index: -1;
 }
 
 section {
@@ -43,6 +47,22 @@ section {
   background-color: grey;
   padding: 5px;
 }
+
+section img {
+  width: 100%;
+}
+
+section h1 {
+  text-align: center;
+}
+
+.float {
+  width: auto;
+  max-height: 200px;
+  float: left;
+  margin-right: 5px;
+}
+
 footer {
   font-size: 1em;
   width: 100%;
